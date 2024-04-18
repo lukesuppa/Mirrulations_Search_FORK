@@ -34,7 +34,7 @@ const Docket = ({
      <p>{title}</p>
     </div>
    </div>
-   <div className="content">
+   <div className="body">
     <div className="c-col1"></div>
     <div className="c-col2"></div>
     <div className="c-col3"></div>
