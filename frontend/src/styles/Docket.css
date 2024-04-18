@@ -59,45 +59,6 @@
     text-decoration: underline;
 }
 
-
-.container-2 {
-    /* position: relative; */
-    /* display: flex; */
-    inline-size: 100%;
-    /* Ensure container-2 occupies entire width */
-    margin-block-start: 10px;
-    /* Add space between container-1 and container-2 */
-    align-self: flex-start;
-    /* Align container-2 to the start (left) */
-    /* border: 1px solid green; Border around container-2 */
-    display: flex;
-    /* Ensure container-2 behaves as flex container */
-}
-
-.left-half {
-    padding: 10px;
-    margin-inline-start: 0;
-    /* Ensure left alignment */
-    flex-direction: column;
-    /* Stack items vertically */
-    justify-content: flex-start;
-    /* Align items to the start (left) */
-    /* border: 1px solid red; Border around left-half */
-    flex-grow: 1;
-    /* Utilize available space */
-}
-
-.right-half {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 10px;
-    margin-inline-end: 25%;
-    /* border: 1px solid orange; Border around right-half */
-    flex-grow: 1;
-    /* Utilize available space */
-}
-
 .button {
     padding: 8px 12px;
     background-color: #4caf50;
@@ -107,4 +68,36 @@
     cursor: pointer;
     font-size: 16px;
     transition: all 0.3s ease;
+}
+
+/* Carl Front End Overhaul */
+.h-row1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+    width: 100%;
+}
+.h-col1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+    width: 50%;
+}
+
+.h-col2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-grow: 1;
+    width: 50%;
+}
+
+.h-row2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+    width: 100%;
 }
